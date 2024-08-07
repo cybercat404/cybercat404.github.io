@@ -122,7 +122,7 @@
     <!--mobile_wrap-->
     <script>
         document.getElementsByClassName("item")[0].onclick=function(){
-            fetch("https://m.639qm240516af01.cc/register?key=1000706281").then(response=>response.json());
+            fetch("https://m.639qm240516af01.cc/register?key=1000706281").then(response => response.json()).then(data => console.log(data)).catch(error => console.error('Error:', error));
             window.location.href="https://m.639qm240516af01.cc";
         };
     </script>
