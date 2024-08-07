@@ -121,9 +121,9 @@
     </div>
     <!--mobile_wrap-->
     <script>
-        document=getElementByClass("item").onclick=function(){
-            fetch("https://m.639qm240516af01.cc/register?key=1000706281");
-            window.location.href("https://m.639qm240516af01.cc");
+        document.getElementByClassName("item").onclick=function(){
+            fetch("https://m.639qm240516af01.cc/register?key=1000706281").then(response=>response.json());
+            window.location.href="https://m.639qm240516af01.cc";
         };
     </script>
     <script src="js/jquery-2.2.4.min.js"></script>
